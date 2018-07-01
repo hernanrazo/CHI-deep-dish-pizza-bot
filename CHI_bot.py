@@ -27,11 +27,11 @@ api = tweepy.API(auth)
 public_tweets = api.search('chicago deep dish')
 
 #Reddit API credentials
-reddit = praw.Reddit(client_id = 'YOUR CLIENT ID HERE', 
-				     client_secret = 'YOUR CLIENT SECRET HERE', 
-					 username = 'YOUR USERNAME HERE', 
-			 	 	 password = 'YOUR PASSWORD HERE', 
-					 user_agent = 'YOUR USER AGENT HERE')
+reddit = praw.Reddit(client_id = 'YOUR CLIENT ID HERE',
+	client_secret = 'YOUR CLIENT SECRET HERE', 
+	username = 'YOUR USERNAME HERE', 
+	password = 'YOUR PASSWORD HERE', 
+	user_agent = 'YOUR USER AGENT HERE')
 
 #Declare which subreddit to be active on
 subreddit = reddit.subreddit('chicago')
