@@ -34,7 +34,7 @@ reddit = praw.Reddit(client_id = 'YOUR CLIENT ID HERE',
 					 user_agent = 'YOUR USER AGENT HERE')
 
 #Declare which subreddit to be active on
-subreddit = reddit.subreddit('bottest')
+subreddit = reddit.subreddit('chicago')
 
 #Declare keyphrase to activate bot
 keyphrase = 'chicago deep dish'
