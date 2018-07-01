@@ -70,9 +70,9 @@ for comment in subreddit.stream.comments():
 		if keyphrase in comment.body:
 		
 			comment.reply('It looks like you mentioned Chicago\'s famous deep dish pizza! ' +
-						  'On Twitter, deep dish pizza has an average subjectivity value of ' +
-						  str(subjectivity_avg) + ' and an average polarity value of ' +
-				       	  str(polarity_avg) + '.')
+				'On Twitter, deep dish pizza has an average subjectivity value of ' +
+				str(subjectivity_avg) + ' and an average polarity value of ' +
+				str(polarity_avg) + '.')
 
 			print('Commented successfully.')
 
@@ -81,4 +81,3 @@ for comment in subreddit.stream.comments():
 
 	except:
 		print('Error when tried to reply.')
-		
